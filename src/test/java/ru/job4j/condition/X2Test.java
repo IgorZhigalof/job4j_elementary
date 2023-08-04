@@ -47,6 +47,7 @@ class X2Test {
         int expected = 1;
         int out = X2.calc(a, b, c, x);
         Assertions.assertEquals(expected, out);
+
     }
 
 }
