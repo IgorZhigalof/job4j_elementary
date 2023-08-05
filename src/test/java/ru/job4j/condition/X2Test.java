@@ -39,7 +39,7 @@ class X2Test {
     }
 
     @Test
-    void whenA1B1C1X0Then2() {
+    void whenA1B1C1X0Then1() {
         int a = 1;
         int b = 1;
         int c = 1;
