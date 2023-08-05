@@ -5,6 +5,7 @@ import static org.assertj.core.api.Assertions.*;
 import static ru.job4j.condition.Point.*;
 
 class PointTest {
+
     @Test
     void when00to20then2() {
         double expected = 2;
