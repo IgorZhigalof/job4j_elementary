@@ -8,7 +8,7 @@ class SwitchWeekTest {
     @Test
     void when1thenPonedelnik() {
         int in = 1;
-        String expected = "Понедельник";
+        String expected = "РџРѕРЅРµРґРµР»СЊРЅРёРє";
         String out = SwitchWeek.nameOfDay(in);
         System.out.println(expected);
         assertThat(out).isEqualTo(expected);
