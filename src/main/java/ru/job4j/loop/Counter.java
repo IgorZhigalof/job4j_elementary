@@ -15,7 +15,7 @@ public class Counter {
             if (i % 2 == 1) {
                 i++;
             }
-            sum = sum + i;
+            sum += i;
         }
         return sum;
     }
