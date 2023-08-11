@@ -6,20 +6,20 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class TwoNumberSumTest {
     @Test
-    void whenTwoEqualsNumbersYesTarget() {
-        int[] array = {5, 5};
-        int target = 10;
-        int[] result = TwoNumberSum.getIndexes(array, target);
-        int[] expected = {0, 1};
-        assertThat(result).isEqualTo(expected);
-    }
-
-    @Test
     void whenTwoEqualsNumbersNoTarget() {
         int[] array = {5, 5};
         int target = 12;
         int[] result = TwoNumberSum.getIndexes(array, target);
         int[] expected = {};
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenTwoEqualsNumbersYesTarget() {
+        int[] array = {5, 5};
+        int target = 10;
+        int[] result = TwoNumberSum.getIndexes(array, target);
+        int[] expected = {0, 1};
         assertThat(result).isEqualTo(expected);
     }
 
